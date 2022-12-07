@@ -1,8 +1,9 @@
 @charset "UTF-8";
-
-:root {
-    --sombra: rgba(0, 0, 0, 0.253)
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
 }
