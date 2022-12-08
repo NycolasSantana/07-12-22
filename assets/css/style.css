@@ -5,9 +5,48 @@
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    text-align: justify;
 }
-img {
-    
+
+body {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.300);
+    text-align: center;
+}
+.navigation {
+    height: 10vh;
+    background-color: #C4170C;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navigation h2 {
+    background-color: darkred;
+    height: 40px;
+    padding-top: 5px;
+}
+.titulo-artigo {
+    width: 40vw;
+    margin: auto;
+    margin-top: 1.5em;
+}
+.titulo-artigo h1 {
+    text-align: left;
+}
+#cerveja {
+    background: url('../images/cerveja.jpg') top center no-repeat local;
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
     border-radius: 1em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.300);
+}
+.content {
+    margin: auto;
+    width: 50vw;
+}
+.content p {
+    margin: auto;
+    margin-top: 1em;
+    width: 30vw;
+    font-size: 1.5em;
 }
